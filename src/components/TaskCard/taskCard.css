@@ -1,0 +1,45 @@
+.taskCard{
+    display: flex;
+    justify-content:space-between;
+    padding: 10px 20px ;
+    align-items: center;
+    width: 100%;  
+    cursor: pointer;  
+    height: 60px;
+    
+}
+
+.taskCard .card_left{
+    display: flex;
+    gap: 17px;
+    align-items: center;
+    min-width: 50%;
+
+}
+
+.taskCard .card_left p{
+    font-size: 24px;
+    font-weight: 500;
+
+  
+}
+
+.taskCard:nth-child(even){
+    background-color: #DDFDFD;
+}
+
+
+
+.taskCard .card_left:hover{
+    opacity: 0.6;
+}
+
+svg{
+    font-size: 20px;
+    cursor: pointer;
+
+}
+
+.active{
+    background-color: #3A70F0;
+}

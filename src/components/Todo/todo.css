@@ -1,0 +1,51 @@
+.todo{
+    box-shadow: 5px 5px 5px  #eeeeee;
+    display: flex;
+    flex-direction: column;
+    width: 50vw;
+    margin-top: 70px;
+}
+
+.todo .todo_head{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    background-color: #AA00D9;
+    padding: 30px 0;
+
+}
+
+.todo .todo_head h1{
+    color: #fff;
+}
+
+.todo .todo_head form {
+    display: flex;
+    width: 90%;
+    background-color: red;
+}
+
+.todo .todo_head form input[type="text"]{
+    width: 80%;
+    outline:none;
+    height: 50px;
+    border: none;
+    box-shadow: 2px 2px 2px  #e2e2e2;
+    color: #3A70F0;
+    padding-left: 10px;
+    font-size: 17px;
+    cursor: pointer;
+    
+}
+
+input[type="submit"]{
+    width: 20%;
+    height: 50px;
+    outline:none;
+    border: none;
+    background-color: #ADE4FD;
+    color: #3A70F0;
+    cursor: pointer;
+}
